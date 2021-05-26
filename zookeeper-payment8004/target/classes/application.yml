@@ -1,0 +1,11 @@
+server:
+  port: 8004
+
+spring:
+  application:
+    name: cloud-payment8004-server
+  cloud:
+    zookeeper:
+      connect-string: 127.0.0.1:2181
+      discovery:
+        instance-id: payment8004-server
